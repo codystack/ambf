@@ -1505,6 +1505,15 @@ span {
   }
 }
 
+.ptext {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: start;
+  margin-top: 15px;
+}
 /* 12.Common */
 /*----------------------------------------------
     # All Common style here

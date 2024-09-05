@@ -40,9 +40,9 @@ include "./components/navbar.php";
                         <div class="about-thumb-wrapper">
                             <div class="counter-box">
                                 <div>
-                                    <h2 class="counter-number">25</h2><span class="plus">+</span>
+                                    <h2 class="counter-number">1000</h2><span class="plus">+</span>
                                 </div>
-                                <span>Years of Experience</span>
+                                <span>Screened</span>
                             </div>
                             <img src="assets/img/aboutThumb1.jpg" alt="thumb" data-tilt data-tilt-max="20"> 
                             <div class="about-mask-img"> 
@@ -70,242 +70,59 @@ include "./components/navbar.php";
         </div>
     </section>
 
-    <!-- Testimonial Section    S T A R T -->
-    <section class="testimonial-section fix section-padding2">
+    <section class="testimonial-section fix mt-60 mb-40">
         <div class="testimonial-wrapper style1">
             <div class="container">
                 <div class="section-title text-center">
-                    <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> <span class="mr-7">
-                            <img src="assets/img/icon/starIcon.png" alt="icon"></span>Testimonials</div>
-                    <h2 class="mt-15 wow fadeInUp" data-wow-delay=".3s">What They’re<span> Saying </span></h2>
+                    <h2 class="mt-15 wow fadeInUp" data-wow-delay=".3s">Our Vision & <span>Mission</span></h2>
                 </div>
-                <div class="slider-area">
-                    <div class="swiper testimonial-slider-one">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonila-item style1">
-                                    <div class="star">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p class="text">Thanks to Moral's education program, I was able to continue
-                                        my studies despite financial hardships. The support not only helped me
-                                        but also inspired me to give back to my community.</p>
-                                    <div class="fancy-box style2">
-                                        <div class="item">
-                                            <img src="assets/img/testimonial/testimonialThumb1_1.jpg" alt="img">
-                                        </div>
-                                        <div class="item">
-                                            <h4 class="title">Esther Howard</h4>
-                                            <span>@iamsedaoi&wv</span>
-                                        </div>
-                                        <div class="item">
-                                            <a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonila-item style1">
-                                    <div class="star">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p class="text">Volunteering with Moral has been a transformative
-                                        experience. The opportunity to work directly with communities and see
-                                        the impact of our collective efforts is incredibly rewarding.</p>
-                                    <div class="fancy-box style2">
-                                        <div class="item">
-                                            <img src="assets/img/testimonial/testimonialThumb1_2.jpg" alt="img">
-                                        </div>
-                                        <div class="item">
-                                            <h4 class="title">Masirul Richard</h4>
-                                            <span>@masirulweb</span>
-                                        </div>
-                                        <div class="item">
-                                            <a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonila-item style1">
-                                    <div class="star">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p class="text">Thanks to Moral's education program, I was able to continue
-                                        my studies despite financial hardships. The support not only helped me
-                                        but also inspired me to give back to my community.</p>
-                                    <div class="fancy-box style2">
-                                        <div class="item">
-                                            <img src="assets/img/testimonial/testimonialThumb1_1.jpg" alt="img">
-                                        </div>
-                                        <div class="item">
-                                            <h4 class="title">Esther Howard</h4>
-                                            <span>@iamsedaoi&wv</span>
-                                        </div>
-                                        <div class="item">
-                                            <a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonila-item style1">
-                                    <div class="star">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                            <li><i class="fa-solid fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p class="text">Volunteering with Moral has been a transformative
-                                        experience. The opportunity to work directly with communities and see
-                                        the impact of our collective efforts is incredibly rewarding.</p>
-                                    <div class="fancy-box style2">
-                                        <div class="item">
-                                            <img src="assets/img/testimonial/testimonialThumb1_2.jpg" alt="img">
-                                        </div>
-                                        <div class="item">
-                                            <h4 class="title">Masirul Richard</h4>
-                                            <span>@masirulweb</span>
-                                        </div>
-                                        <div class="item">
-                                            <a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="row gx-80">
+                    <div class="col-lg-12 col-xl-6">
+                        <div class="section-title text-center">
+                            <p>AmBeautified Life Foundation is a beacon of hope, support, and inspiration for persons facing the challenges of breast cancer and poverty.</p>
+                            <p>Our mission is to ignite resilience, healing, and transformation through advocacy, survivorship, and body affirmation.</p>
+                            <p>To empower women to rise above their circumstances and embrace their full potential, creating a brighter future for all.</p>
                         </div>
                     </div>
-                    <div class="arrow-button">
-                        <button class="arrow-prev"><i class="fa-solid fa-arrow-up-left"></i></button>
-                        <button class="arrow-next"><i class="fa-solid fa-arrow-up-right"></i></button>
+                    <div class="col-lg-12 col-xl-6">
+                        <div class="section-title">
+                            <h2 class="text-start wow fadeInUp" data-wow-delay=".3s">Core Values</h2>
+                            <ul class="ms-5" style="list-style-type: square;">
+                                <li>Integrity</li>
+                                <li>Transparency</li>
+                                <li>Compassion</li>
+                                <li>Respect</li>
+                                <li>Partnership</li>
+                                <li>Community</li>
+                                <li>Inclusiveness</li>
+                                <li>Service</li>
+                                <li>Hope</li>
+                                <li>Excellence</li>
+                                <li>Confidentiality</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section    S T A R T -->
-    <section class="team-section fix section-padding bg-theme">
+    <section class="about-us-section fix section-padding bg-theme">
         <div class="container">
             <div class="section-title-area">
                 <div class="section-title text-center">
-                    <div class="subtitle text-start text-white wow fadeInUp" data-wow-delay=".5s"> <span class="mr-7">
-                            <img src="assets/img/icon/starIcon.svg" alt="icon"></span> Our Team
-                    </div>
-                    <h2 class="mt-15 text-white wow fadeInUp" data-wow-delay=".3s">Our <span
-                            class="text-theme-color2">Volunteers</span></h2>
-                </div>
-                <div class="btn-wrapper mr-44">
-                    <a href="team.html"> <span class="theme-btn style3"> View all </span><span
-                            class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <h2 class="mt-15 text-white wow fadeInUp" data-wow-delay=".3s">Our <span class="text-theme-color2">Focus</span></h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="team-card-items style1">
-                        <div class="team-image image-anime"> 
-                            <img class="team-mask-img" src="assets/img/team/teamThumb1_1.png" alt="Thumb"> 
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="plus-btn bg-white text-dark"><i class="fas fa-plus"></i></span>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4><a class="text-white" href="team-details.html">Masirul</a></h4>
-                            <span class="text-dark2">VP Of Sucurity</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="team-card-items style1">
-                        <div class="team-image image-anime">
-                            <img class="team-mask-img"  src="assets/img/team/teamThumb1_2.png" alt="Thumb">
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="plus-btn bg-white text-dark"><i class="fas fa-plus"></i></span>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4><a class="text-white" href="team-details.html">Robert Fox</a></h4>
-                            <span class="text-dark2">CEO & founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="team-card-items style1">
-                        <div class="team-image image-anime">
-                            <img class="team-mask-img" src="assets/img/team/teamThumb1_3.png" alt="Thumb">
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="plus-btn bg-white text-dark"><i class="fas fa-plus"></i></span>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4><a class="text-white" href="team-details.html">Cody Fisher</a></h4>
-                            <span class="text-dark2">Volunteers lead</span>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="team-card-items style1">
-                        <div class="team-image  image-anime">
-                            <img class="team-mask-img"  src="assets/img/team/teamThumb1_4.png" alt="Thumb">
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="plus-btn bg-white text-dark"><i class="fas fa-plus"></i></span>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4><a class="text-white" href="team-details.html">Andrew Swety</a></h4>
-                            <span class="text-dark2">General Secretary</span>
-                        </div>
-
+                <div class="col-12 text-white">
+                    <div>
+                        <p class="ptext">The AmBeautified Life Foundation supports a variety of individuals in need, including breast cancer patients, women, and orphans. The foundation aims to empower and uplift these vulnerable groups by providing them with the necessary support and resources to improve their quality of life.</p>
+                        <h3 class="mt-3 text-theme-color2 wow fadeInUp">Breast Cancer Advocacy/Support</h3>
+                        <p class="ptext">By supporting breast cancer patients, the foundation helps to cover medical expenses and offer emotional and psychological support during their treatment journey.</p>
+                        <p class="ptext">Additionally, the foundation works to empower women by providing them with skills training, education, and resources to help them become self-sufficient and financially independent. By supporting women in the community, the foundation aims to promote gender equality and create opportunities for women to thrive in all areas of their lives.</p>
+                        <h3 class="mt-3 text-theme-color2 wow fadeInUp">Supporting Orphans</h3>
+                        <p class="ptext">The foundation also supports orphans by providing them with access to education, healthcare, and other essential services to ensure their well-being and development. By focusing on these vulnerable groups, the AmBeautified Life Foundation seeks to create positive change and make a lasting impact in the lives of those facing challenges.</p>
                     </div>
                 </div>
             </div>
