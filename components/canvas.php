@@ -5,7 +5,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="./">
-                                <img src="assets/img/ambf-logo-light.svg" alt="logo-img">
+                                <img src="assets/img/ambf-logo.svg" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">

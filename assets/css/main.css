@@ -1225,7 +1225,7 @@ span {
 .mean-container .mean-nav ul li a {
   width: 100%;
   padding: 10px 0;
-  color: var(--white) !important;
+  color: #d59bba !important;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
@@ -2598,7 +2598,7 @@ span {
   position: relative;
   height: 100%;
   padding: 30px 30px;
-  background-color: var(--title);
+  background-color: var(--bg2);
 }
 .offcanvas__wrapper .offcanvas__content .text {
   color: var(--white);

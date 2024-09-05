@@ -34,7 +34,6 @@ include "./components/navbar.php";
         </div>
     </section>
 
-    <!-- About Us Section   S T A R T -->
     <section class="about-us-section fix section-padding bg-color2">
         <div class="container">
             <div class="about-wrapper style1">
@@ -43,29 +42,25 @@ include "./components/navbar.php";
                         <div class="about-thumb-wrapper">
                             <div class="counter-box">
                                 <div>
-                                    <h2 class="counter-number">25</h2><span class="plus">+</span>
+                                    <h2 class="counter-number">1000</h2><span class="plus">+</span>
                                 </div>
-                                <span>Years of Experience</span>
+                                <span>Screened</span>
                             </div>
-                            <img src="assets/img/about/aboutThumb1_1.jpg" alt="thumb" data-tilt data-tilt-max="20">
+                            <img src="assets/img/aboutThumb1.jpg" alt="thumb" data-tilt data-tilt-max="20">
                             <div class="about-mask-img"> 
-                                <img src="assets/img/about/aboutThumb1_2.png" alt="thumb">
+                                <img src="assets/img/aboutThumb2.png" alt="thumb">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12 col-xl-6">
                         <div class="section-title text-center">
                             <div class="subtitle text-start wow fadeInUp" data-wow-delay=".5s"> <span class="mr-7">
-                                    <img src="assets/img/icon/starIcon.jpg.png" alt="icon"></span>About Us </div>
-                            <h2 class="mt-15 text-start wow fadeInUp" data-wow-delay=".3s">We have founded
-                                <span>10,000 </span>charity projects for 15M People around the world.
-                            </h2>
-                            <p>We all carry a lot of baggage, thanks to our upbringing. The majority of people
-                                carry with them, an entire series of self-limiting beliefs that will absolutely
-                                stop, and hold them back from, success.</p>
+                                    <img src="assets/img/icon/starIcon.jpg.png" alt="icon"></span>About</div>
+                            <h2 class="mt-15 text-start wow fadeInUp" data-wow-delay=".3s">The Foundation</h2>
+                            <p>Ambeautified Life Foundation is a nonprofit, civil society organization officially registered in Nigeria. The foundation was established by Olufunke Ogunmodede, a breast cancer survivor whose personal experience with the disease inspired her to create a supportive community dedicated to raising awareness about breast cancer, aiding patients in their journey toward healing and thriving.</p>
                         </div>
                         <div class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
-                            <a href="causes-details.html"> <span class="theme-btn"> Donate Now
+                            <a href="about"> <span class="theme-btn"> Learn More
                                 </span><span class="arrow-btn"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                         </div>
                         <div class="fancy-box-wrapper">
