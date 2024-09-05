@@ -107,7 +107,7 @@
     </div>
 
 
-    <!-- <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.waypoints.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
@@ -116,7 +116,7 @@
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script> -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
