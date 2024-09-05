@@ -32,9 +32,6 @@ include "./components/navbar.php";
         </div>
     </div>
 
-
-
-    <!-- Contact Section    S T A R T -->
     <section class="contact-section fix section-padding">
         <div class="contact-wrapper">
             <div class="container">

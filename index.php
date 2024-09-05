@@ -1,4 +1,5 @@
 <?php
+$page = "Home";
 include "./components/header.php";
 include "./components/canvas.php";
 include "./components/navbar.php";

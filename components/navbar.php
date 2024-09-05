@@ -17,12 +17,10 @@
                                         <nav id="mobile-menu">
                                             <ul>
                                                 <li>
-                                                    <a class="active" href="index.html">
-                                                        Home
-                                                    </a> 
+                                                    <a class="<?php if($page=='Home'){echo 'active';}?>" href="./">Home</a> 
                                                 </li> 
                                                 <li>
-                                                    <a href="about.html">About Us</a>
+                                                    <a class="<?php if($page=='About'){echo 'active';}?>" href="about">About Us</a>
                                                 </li>
                                                 <li>
                                                     <a href="causes.html">
@@ -57,10 +55,16 @@
                                                     </ul>
                                                 </li>
                                                 <li>
+                                                    <a href="volunteer">Volunteer</a>
+                                                </li>
+                                                <li>
+                                                    <a class="<?php if($page=='FAQ'){echo 'active';}?>" href="contact">FAQ</a>
+                                                </li>
+                                                <li>
                                                     <a href="https://shop.ambeautifiedlifefoundation.org/" target="_blank">Shop</a>
                                                 </li>
                                                 <li>
-                                                    <a href="contact">Contact Us</a>
+                                                    <a class="<?php if($page=='Contact'){echo 'active';}?>" href="contact">Contact us</a>
                                                 </li>
                                             </ul>
                                         </nav>

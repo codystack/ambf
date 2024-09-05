@@ -37,8 +37,8 @@
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
-                                <span>Get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                            <a href="donate" class="theme-btn text-center">
+                                <span>Donate<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
                         </div>
                         <div class="social-icon d-flex align-items-center">
