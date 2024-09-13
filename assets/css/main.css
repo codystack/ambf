@@ -1225,7 +1225,7 @@ span {
 .mean-container .mean-nav ul li a {
   width: 100%;
   padding: 10px 0;
-  color: #d59bba !important;
+  color: #960352 !important;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
@@ -2632,7 +2632,7 @@ span {
   text-transform: capitalize;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li a {
-  color: var(--white);
+  color: #960352;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child) {
   margin-bottom: 15px;
@@ -2641,7 +2641,7 @@ span {
   margin-right: 20px;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon i {
-  color: var(--theme2);
+  color: var(--theme);
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact span {
   text-transform: initial;

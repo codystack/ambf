@@ -58,39 +58,11 @@ include "./components/navbar.php";
                                     <img src="assets/img/icon/starIcon.jpg.png" alt="icon"></span>About</div>
                             <h2 class="mt-15 text-start wow fadeInUp" data-wow-delay=".3s">The Foundation</h2>
                             <p>Ambeautified Life Foundation is a nonprofit, civil society organization officially registered in Nigeria. The foundation was established by Olufunke Ogunmodede, a breast cancer survivor whose personal experience with the disease inspired her to create a supportive community dedicated to raising awareness about breast cancer, aiding patients in their journey toward healing and thriving.</p>
+                            <p>Driven by her unwavering passion for humanitarian service, the foundation actively engages in fundraising initiatives with the primary goal of alleviating the financial burdens often faced by individuals battling cancer. In addition to supporting cancer patients, the foundation also extends its assistance to women in rural areas, orphanages and other charitable causes, such as outreach programs aimed at combating hunger, including initiatives like 'Church on the Street.</p>
                         </div>
                         <div class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
                             <a href="about"> <span class="theme-btn"> Learn More
                                 </span><span class="arrow-btn"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                        </div>
-                        <div class="fancy-box-wrapper">
-                            <div class="fancy-box style3 wow fadeInUp" data-wow-delay=".3s">
-                                <div class="item">
-                                    <img src="assets/img/icon/aboutIcon1_1.svg" alt="icon">
-                                </div>
-                                <div class="item">
-                                    <h6 class="title">Volunteers Engaged</h6>
-                                    <span class="counter-number">10,000</span><span class="plus">+</span>
-                                </div>
-                            </div>
-                            <div class="fancy-box style3 wow fadeInUp" data-wow-delay=".5s">
-                                <div class="item">
-                                    <img src="assets/img/icon/aboutIcon1_2.svg" alt="icon">
-                                </div>
-                                <div class="item">
-                                    <h6 class="title">Total Funds Raised</h6>
-                                    <span class="counter-number">3,065</span><span class="plus">+</span>
-                                </div>
-                            </div>
-                            <div class="fancy-box style3 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="item">
-                                    <img src="assets/img/icon/aboutIcon1_3.svg" alt="icon">
-                                </div>
-                                <div class="item">
-                                    <h6 class="title">Countries Reached</h6>
-                                    <span class="counter-number">5,000</span><span class="plus">+</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

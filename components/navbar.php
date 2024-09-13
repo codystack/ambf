@@ -18,19 +18,19 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php if($page=='Home'){echo 'active';}?>" href="./">Home</a> 
-                                                </li> 
-                                                <li>
-                                                    <a class="<?php if($page=='About'){echo 'active';}?>" href="about">About Us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="causes.html">
-                                                        Causes
+                                                    <a class="<?php if($page=='About' || $page=='Her'){echo 'active';}?>">
+                                                        About AMBF
                                                         <i class="fa-regular fa-plus"></i>
                                                     </a>
                                                     <ul class="submenu">
-                                                        <li><a href="causes.html">Causes</a></li>
-                                                        <li><a href="causes-details.html">Causes Details</a></li>
+                                                        <li><a class="<?php if($page=='About'){echo 'active';}?>" href="about">About Us</a></li>
+                                                        <li><a class="<?php if($page=='Her'){echo 'active';}?>" href="her">Our Founder</a></li>
                                                     </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="causes">Causes</a>
                                                 </li>
                                                 <li>
                                                     <a href="volunteer">Volunteer</a>

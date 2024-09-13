@@ -26,25 +26,25 @@
                             </div>
                             <ul class="list-area">
                                 <li>
-                                    <a href="team.html">
+                                    <a href="about">
                                         <i class="fa-solid fa-chevrons-right"></i>
-                                        Our Team
+                                        About AMBF
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="causes.html">
+                                    <a href="causes">
                                         <i class="fa-solid fa-chevrons-right"></i>
                                         Causes
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="donate">
                                         <i class="fa-solid fa-chevrons-right"></i>
-                                        Our Blog
+                                       Donate
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">
+                                    <a href="contact">
                                         <i class="fa-solid fa-chevrons-right"></i>
                                         Contact Us
                                     </a>
