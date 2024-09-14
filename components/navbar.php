@@ -30,10 +30,10 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="causes">Causes</a>
+                                                    <a class="<?php if($page=='Causes'){echo 'active';}?>" href="causes">Causes</a>
                                                 </li>
                                                 <li>
-                                                    <a href="volunteer">Volunteer</a>
+                                                    <a class="<?php if($page=='Volunteer'){echo 'active';}?>" href="volunteer">Volunteer</a>
                                                 </li>
                                                 <li>
                                                     <a href="https://shop.ambeautifiedlifefoundation.org/" target="_blank">Shop</a>
