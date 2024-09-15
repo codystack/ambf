@@ -3,6 +3,7 @@ $page = "Volunteer";
 include "./components/header.php";
 include "./components/canvas.php";
 include "./components/navbar.php";
+include "./auth/volunteer.php";
 ?>
 
     <div class="breadcrumb-wrapper">
@@ -52,8 +53,8 @@ include "./components/navbar.php";
                             <h2 class="mt-15 text-start wow fadeInUp" data-wow-delay=".3s">Become a Volunteer</h2>
                             <p>Thank you for your desire to join us in our efforts to fight breast cancer, hunger and poverty. Thank you for your time, energy, passion and resources. Your hard work and dedication are greatly appreciated.</p>
                         </div>
-                        <div class="comment-form-wrap wow fadeInUp" data-wow-delay="1.2s">
-                            <form action="#" id="contact-form" method="POST">
+                        <div class="comment-form-wrap">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="form-floating">
@@ -117,8 +118,9 @@ include "./components/navbar.php";
                                             <label for="floatingInput">Occupation</label>
                                         </div>
                                     </div>
+                                    <span><?php echo $res ?></span>
                                     <div class="col-lg-6 mt-0">
-                                        <button type="submit" class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                        <button type="submit" name="submit" class="btn-wrapper">
                                                 <span class="theme-btn mt-0">Apply Now</span>
                                                 <span class="arrow-btn"><i class="fa-solid fa-arrow-up-right"></i></span> 
                                         </button>

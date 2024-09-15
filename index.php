@@ -180,6 +180,12 @@ include "./components/navbar.php";
                                         <li class="listItem" data-amount="80">$80</li>
                                         <li class="listItem" data-amount="100">$100</li>
                                     </ul>
+                                    <div class="btn-wrapper">
+                                        <a href="">
+                                            <span class="theme-btn style3">Donate Now</span>
+                                            <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="pills-give-monthly" role="tabpanel"
                                     aria-labelledby="pills-give-monthly-tab" tabindex="0">
@@ -202,15 +208,14 @@ include "./components/navbar.php";
                                         <li class="listItem" data-amount="50000">₦50,000</li>
                                         <li class="listItem" data-amount="100000">₦100,000</li>
                                     </ul>
+                                    <div class="btn-wrapper">
+                                        <a href="">
+                                            <span class="theme-btn style3">Donate Now</span>
+                                            <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
-                            <a href="">
-                                <span class="theme-btn style3">Donate Now</span>
-                                <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
-                            </a>
                         </div>
                     </div>
                 </div>

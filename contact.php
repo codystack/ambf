@@ -3,6 +3,7 @@ $page = "Contact";
 include "./components/header.php";
 include "./components/canvas.php";
 include "./components/navbar.php";
+include "./auth/contact.php";
 ?>
 
     <div class="breadcrumb-wrapper">
@@ -58,11 +59,11 @@ include "./components/navbar.php";
                     <div class="col-12 col-md-12 col-lg-7">
                         <div class="contact-form">
                             <div class="contact-form-items">
-                                <form action="contact.php.html" id="contact-form" method="POST">
+                                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                     <div class="row g-4">
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
                                             <div class="form-clt">
-                                                <input type="text" name="name" id="name" placeholder="Fast Name">
+                                                <input type="text" name="first_name" placeholder="Fast Name">
                                                 <div class="icon">
                                                     <i class="fa-regular fa-user"></i>
                                                 </div>
@@ -70,7 +71,7 @@ include "./components/navbar.php";
                                         </div>
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                                             <div class="form-clt">
-                                                <input type="text" name="name" id="name12" placeholder="Last Name">
+                                                <input type="text" name="last_name" placeholder="Last Name">
                                                 <div class="icon">
                                                     <i class="fa-regular fa-user"></i>
                                                 </div>
@@ -78,7 +79,7 @@ include "./components/navbar.php";
                                         </div>
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
                                             <div class="form-clt">
-                                                <input type="text" name="number" id="number" placeholder="Phone Number">
+                                                <input type="tel" name="phone" placeholder="Phone Number">
                                                 <div class="icon">
                                                     <i class="fa-regular fa-phone"></i>
                                                 </div>
@@ -86,7 +87,7 @@ include "./components/navbar.php";
                                         </div>
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                                             <div class="form-clt">
-                                                <input type="text" name="email" id="email3" placeholder="Email Address">
+                                                <input type="email" name="email" placeholder="Email Address">
                                                 <div class="icon">
                                                     <i class="fa-regular fa-envelope"></i>
                                                 </div>
@@ -94,14 +95,15 @@ include "./components/navbar.php";
                                         </div>
                                         <div class="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
                                             <div class="form-clt">
-                                                <textarea name="message" id="message" placeholder="Tell us about your interest in"></textarea>
+                                                <textarea name="message" placeholder="Tell us about your interest in"></textarea>
                                                 <div class="icon">
                                                     <i class="fa-sharp fa-light fa-pencil"></i>
                                                 </div>
                                             </div>
                                         </div>
+                                        <span><?php echo $res ?></span>
                                         <div class="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-                                            <button type="submit" class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                            <button type="submit" name="submit" class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
                                                  <span class="theme-btn style3">Send to Us </span> <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span> 
                                             </button>
                                         </div>

@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="header-button">
                                     <div class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
-                                        <a href="causes-details.html"> <span class="theme-btn style3"> Donate Now
+                                        <a href="donate"> <span class="theme-btn style3"> Donate Now
                                             </span><span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
                                         </a>
                                     </div>
