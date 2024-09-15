@@ -161,13 +161,13 @@ include "./components/navbar.php";
                             <div class="tab-content wow fadeInUp" id="pills-tabContent" data-wow-delay=".3s">
                                 <div class="tab-pane fade show active" id="pills-give-once" role="tabpanel"
                                     aria-labelledby="pills-give-once-tab" tabindex="0">
-                                    <form action="#">
+                                    <form action="#" id="usdDonation">
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="contact-form">
                                                     <label class="contact-label">$</label>
                                                     <input class="form-control contact-input left_default_amount"
-                                                        type="number" min="1" value="50" placeholder="$50">
+                                                        type="number" min="1" id="amount" name="amount" value="50" placeholder="$50">
                                                 </div>
                                             </div>
                                         </div>
@@ -181,21 +181,22 @@ include "./components/navbar.php";
                                         <li class="listItem" data-amount="100">$100</li>
                                     </ul>
                                     <div class="btn-wrapper">
-                                        <a href="">
+                                        <button type="submit" data-bs-toggle="modal" data-bs-target="#paymentMethodModalUSD">
                                             <span class="theme-btn style3">Donate Now</span>
                                             <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
-                                        </a>
+                                        </button>
                                     </div>
+                                    <?php include "./components/modals.php"; ?>
                                 </div>
                                 <div class="tab-pane fade" id="pills-give-monthly" role="tabpanel"
                                     aria-labelledby="pills-give-monthly-tab" tabindex="0">
-                                    <form action="#">
+                                    <form action="#" id="nairaDonation" method="post">
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="contact-form">
                                                     <label class="contact-label">₦</label>
                                                     <input class="form-control contact-input left_default_amount"
-                                                        type="number" min="1" value="5000" placeholder="₦5000">
+                                                        type="number" min="1" id="amount" name="amount" value="5000" placeholder="₦5000">
                                                 </div>
                                             </div>
                                         </div>
@@ -209,11 +210,12 @@ include "./components/navbar.php";
                                         <li class="listItem" data-amount="100000">₦100,000</li>
                                     </ul>
                                     <div class="btn-wrapper">
-                                        <a href="">
+                                        <button type="submit" data-bs-toggle="modal" data-bs-target="#paymentMethodModal">
                                             <span class="theme-btn style3">Donate Now</span>
                                             <span class="arrow-btn style2"><i class="fa-solid fa-arrow-up-right"></i></span>
-                                        </a>
+                                        </button>
                                     </div>
+                                    <?php include "./components/modals.php"; ?>
                                 </div>
                             </div>
                         </div>

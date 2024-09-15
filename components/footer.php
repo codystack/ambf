@@ -117,6 +117,34 @@
     <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        //Pament Method Trigger
+        $(document).ready(function() {
+            $('#nairaDonation').submit(function(event) {
+                event.preventDefault();
+                var formData = $(this).serializeArray();
+                var amount = formData[0].value;
+
+                $('#modal-amount').text('Amount: ' + amount);
+
+                $('#paymentMethodModal').modal('show');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#usdDonation').submit(function(event) {
+                event.preventDefault();
+                var formData = $(this).serializeArray();
+                var amount = formData[0].value;
+
+                $('#modal-amount').text('Amount: ' + amount);
+
+                $('#paymentMethodModalUSD').modal('show');
+            });
+        });
+    </script>
 </body>
 
 </html>
