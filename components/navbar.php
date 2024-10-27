@@ -36,7 +36,7 @@
                                                     <a class="<?php if($page=='Volunteer'){echo 'active';}?>" href="volunteer">Volunteer</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://shop.ambeautifiedlifefoundation.org/" target="_blank">Shop</a>
+                                                    <a href="#">Shop</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php if($page=='Contact'){echo 'active';}?>" href="contact">Contact us</a>
